@@ -1,0 +1,243 @@
+.parent {
+  background-color: #eceff3;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+.container {
+  width: 100%;
+  padding: 0 50px;
+}
+.goal {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  line-height: 30px;
+}
+
+.action {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 20px 40px; */
+  line-height: 30px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: white !important;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  padding: 20px 40px;
+}
+
+.accordion-item {
+  border-radius: 10px !important;
+  margin-bottom: 25px;
+}
+
+.accordion-body {
+  padding: 40px !important;
+}
+
+.action-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 410px;
+  height: 355px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #73aad9;
+  position: relative;
+  border-radius: 10px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.card-btn {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 21px;
+}
+
+.top {
+  top: 10px;
+  right: 10px;
+  background-color: #66b61a;
+}
+
+.bottom {
+  bottom: 10px;
+  right: 10px;
+  background-color: #3994fb;
+}
+
+.card p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.triangle-right {
+  border-left: 30px solid #3994fb;
+  width: 0;
+  height: 0;
+  margin: 30px auto;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+.triangle-left {
+  transform: rotate(180deg);
+}
+
+.react-horizontal-scrolling-menu--arrow-right,
+.react-horizontal-scrolling-menu--arrow-left {
+  position: absolute;
+  top: 35%;
+}
+
+.react-horizontal-scrolling-menu--arrow-right {
+  right: 0;
+}
+.react-horizontal-scrolling-menu--arrow-left {
+  left: 0;
+  z-index: 10;
+}
+
+.sender-detail {
+  /* border: 1px solid black; */
+}
+
+.details {
+  width: 682px;
+  border: 1px solid #73aad9;
+  border-radius: 10px;
+  line-height: 30px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.details button {
+  all: unset;
+  width: 110px;
+  height: 36px;
+  border: 1px solid #8f8f8f;
+  text-align: center;
+  border-radius: 21px;
+  font-size: 14px;
+}
+
+.assets-container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.asset {
+  line-height: 30px;
+}
+#form-file-upload {
+  background-color: rgba(238, 246, 255, 1);
+  height: 150px;
+  width: 480px;
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  border: 1.07616px dashed rgba(238, 246, 255, 1);
+  margin-top: 10px;
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#label-file-upload {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+  border: 1.07616px dashed rgba(39, 116, 207, 0.3);
+  border-radius: 4.30462px;
+  /* border-color: #cbd5e1; */
+  /* background-color: #f8fafc; */
+}
+
+#label-file-upload.drag-active {
+  background-color: #ffffff;
+}
+
+.upload-button {
+  cursor: pointer;
+  padding: 0.25rem;
+  font-size: 1rem;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  background-color: transparent;
+}
+
+.upload-button:hover {
+  text-decoration-line: underline;
+}
+
+#drag-file-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.timing {
+  margin-top: 30px;
+  /* margin-bottom: 40px; */
+  line-height: 30px;
+}
+.timing p {
+  color: #b0b0b0;
+}
+.timing p span {
+  color: black;
+}
+
+.custom-input {
+  margin-top: 20px;
+}
+
+.custom-input select {
+  width: 470px;
+  border: 1px solid rgba(115, 170, 217, 1);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.activate {
+  all: unset;
+  width: 240px;
+  height: 49px;
+  background: #3994fb;
+  border-radius: 21px;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  right: 50px;
+}
